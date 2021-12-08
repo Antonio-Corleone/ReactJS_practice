@@ -1,9 +1,8 @@
-
-import Baitap from './baitap';
+import UserManagement from './user_management';
 function App() {
   return (
     <div>
-      <Baitap />
+      <UserManagement />
     </div>
   );
 }
