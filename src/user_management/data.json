@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Nguyễn Văn Ba",
-    "username": "BaNV",
-    "email": "nva@gmail.com",
-    "phone": "3334445556",
-    "type": "Admin"
+    "name": "Dinh Phuc Nguyen",
+    "username": "dpnguyen",
+    "email": "dpnguyen@gmail.com",
+    "phone": "123456789",
+    "type": "VIP"
   },
   {
     "id": 2,
-    "name": "Trần Văn Bảy",
-    "username": "BayTV",
-    "email": "tvb@gmail.com",
-    "phone": "2223335556",
+    "name": "Nguyen Van A",
+    "username": "vana",
+    "email": "vana@gmail.com",
+    "phone": "123456789",
     "type": "User"
   },
   {
