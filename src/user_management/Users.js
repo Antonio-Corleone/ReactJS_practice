@@ -2,8 +2,18 @@ import React, { Component } from "react";
 import UserItem from "./UserItem";
 
 class Users extends Component {
+  renderUserList = () => {
+    return this.props.listUsers.map((user) => {
+      return (
+        <UserItem
+          key={user.id}
+          user={user}
+          deleteUser = {this.props.deleteUser}
+        />
+      );
+    });
+  };
   render() {
-    const {listUsers} = this.props;
     return (
       <div>
         <table className="table">
@@ -17,7 +27,7 @@ class Users extends Component {
             </tr>
           </thead>
           <tbody>
-            <UserItem getUserItem={listUsers} deleteUser = {this.props.deleteUser}/>
+            {this.renderUserList()}
           </tbody>
         </table>
       </div>
